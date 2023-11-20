@@ -9,6 +9,12 @@ async function ProductsPage() {
 
   return (
     <div className="mx-auto max-w-2xl lg:max-w-7xl px-4 sm:px-6 lg:px-8">
+       <div className="flex justify-between flex-center">
+        <h2 className="text-2xl font-bold tracking-tight text-gray-900">
+          All Products
+        </h2>
+       
+      </div>
       <div className="mt-6 grid grid-col-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
         {products.map((product) => (
           <ProductItem key={product?._id} product={product} />
