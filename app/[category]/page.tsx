@@ -1,5 +1,5 @@
-import { client } from "@/sanity/lib/client";
-import { productQueryByCategory } from "@/sanity/lib/queries";
+import { client } from "@/lib/client";
+import { productQueryByCategory } from "@/lib/queries";
 import { simplifiedProduct } from "../interface";
 import ProductItem from "../components/ProductItem";
 

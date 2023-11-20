@@ -1,5 +1,5 @@
-import { client } from "@/sanity/lib/client";
-import { productsLatestQuery } from "@/sanity/lib/queries";
+import { client } from "@/lib/client";
+import { productsLatestQuery } from "@/lib/queries";
 import { simplifiedProduct } from "../interface";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";

@@ -1,6 +1,6 @@
-import { client } from "@/sanity/lib/client";
-import { urlForImage } from "@/sanity/lib/image";
-import { heroImagesQuery } from "@/sanity/lib/queries";
+import { client } from "@/lib/client";
+import { urlForImage } from "@/lib/image";
+import { heroImagesQuery } from "@/lib/queries";
 import Image from "next/image";
 
 

@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 //utilis
-import { urlForImage } from "../../sanity/lib/image";
+import { urlForImage } from "../../lib/image";
 
 //components
 import { Button } from "@/components/ui/button";
@@ -30,7 +30,7 @@ function Product(props: { product: productItem }) {
     return (
       <div >
         <Link href="/" className="group text-gray-700  ">
-          <div className="flex gap-x-2  text-secondary group-hover:text-blue-600">
+          <div className="flex gap-x-2  group-hover:text-blue-600">
             <ArrowLeft className="w-6" />
             <span>Back To Products</span>
           </div>

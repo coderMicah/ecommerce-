@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { urlForImage } from "../../sanity/lib/image";
+import { urlForImage } from "../../lib/image";
 import { simplifiedProduct } from "../interface";
 import Image from "next/image";
 

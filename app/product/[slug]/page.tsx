@@ -1,8 +1,8 @@
 
 import Product from "@/app/components/Product";
 import { productItem } from "@/app/interface";
-import { client } from "@/sanity/lib/client";
-import { productQuery } from "@/sanity/lib/queries";
+import { client } from "@/lib/client";
+import { productQuery } from "@/lib/queries";
 
 export const dynamic = "force-dynamic"
 async function ProductPage({ params }: { params: { slug: string } }) {

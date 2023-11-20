@@ -1,6 +1,6 @@
-import { productsQuery } from "@/sanity/lib/queries";
+import { productsQuery } from "@/lib/queries";
 
-import { client } from "@/sanity/lib/client";
+import { client } from "@/lib/client";
 import { simplifiedProduct } from "../interface";
 import ProductItem from "../components/ProductItem";
 
