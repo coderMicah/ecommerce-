@@ -10,7 +10,8 @@ export default defineConfig({
   projectId: 'gdxhzacc',
   dataset: 'production',
 
-  plugins: [deskTool(), visionTool()],
+  // plugins: [deskTool(), visionTool()],
+  plugins: [deskTool()],
   
 
   schema: {
