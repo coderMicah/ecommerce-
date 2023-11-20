@@ -7,8 +7,8 @@ function ShoppingCartProvider({ children }: { children: React.ReactNode }) {
       mode="payment"
       cartMode="client-only"
       stripe={process.env.NEXT_PUBLIC_STRIPE_KEY as string}
-      successUrl="https://ecommerce-xi-blue.vercel.app/stripe/success"
-      cancelUrl="https://ecommerce-xi-blue.vercel.app/stripe/error"
+      successUrl="https://ecommerce-micah.vercel.app/stripe/success"
+      cancelUrl="https://ecommerce-micah.vercel.app/stripe/error"
       currency="USD"
       billingAddressCollection={false}
       shouldPersist={true}
